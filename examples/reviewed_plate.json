@@ -1,0 +1,8 @@
+{
+  "status": "reviewed",
+  "source": "synthetic example; dimensions in millimetres",
+  "contours": [
+    {"kind": "polyline", "role": "outer", "points": [[0, 0, 0], [200, 0, 0], [200, 100, 0], [0, 100, 0]]},
+    {"kind": "circle", "role": "hole", "cx": 100, "cy": 50, "radius": 10}
+  ]
+}
