@@ -4,6 +4,10 @@ A small open-source toolkit extracted from a production PDF-to-DXF drawing workf
 
 The source PDF must be interpreted and its dimensions reviewed before using this toolkit. This repository does **not** automatically understand arbitrary PDFs, OCR drawings, infer dimensions from page scale, or certify a cutting file for production. Inspect the result in your CAD/CAM workflow before cutting.
 
+## Why this exists
+
+The maintainer uses a separate, private PDF-to-DXF workflow in a laser-cutting business. Redrawing plate outlines, holes and chamfers from PDF drawings is repetitive, while a wrong dimension can waste material. This public toolkit shares the reusable DXF geometry and verification layer with synthetic examples so others can inspect and improve it. It is a newly published extraction; the private workflow's usage is not a claim of public adoption for this repository.
+
 ## Quick start
 
 Python 3.11+; the example has no third-party dependencies.
